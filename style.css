@@ -313,35 +313,3 @@ footer a:hover {
     font-size: 2rem;
   }
 }
-
-/* ================= UTILITY CLASSES ================= */
-.text-primary {
-  color: var(--primary-color) !important;
-}
-
-.bg-primary {
-  background-color: var(--primary-color) !important;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Section title underline */
-.section-title {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 2rem;
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 3px;
-  background-color: var(--primary-color);
-}
