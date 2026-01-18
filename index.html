@@ -13,302 +13,245 @@
     <link rel="stylesheet" href="/style.css">
     
   <body>
+<!-- ================= HEADER / NAVIGATION BAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
 
-    <!-- Header/Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#home">
-          <i class="bi bi-shop"></i> Zirim's Delights
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#menu">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+    <!-- Brand / Logo -->
+    <a class="navbar-brand fw-bold" href="#home">
+      <i class="bi bi-shop"></i> Zirim's Delights
+    </a>
+
+    <!-- Mobile menu toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<section id="home" class="hero-section">
+
+  <!-- Dark overlay for background image -->
+  <div class="hero-overlay"></div>
+
+  <!-- Hero content -->
+  <div class="hero-content">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+
+          <!-- Main headline -->
+          <h1 class="display-3 fw-bold text-white mb-4">
+            Experience Authentic Nigerian Flavors
+          </h1>
+
+          <!-- Subheading -->
+          <p class="lead text-white mb-4">
+            Taste the richness of traditional Nigerian cuisine, prepared with love and passion
+          </p>
+
+          <!-- Call-to-action button -->
+          <a href="#menu" class="btn btn-primary btn-lg px-5 py-3">
+            Explore Our Menu
+          </a>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
+</section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-              <h1 class="display-3 fw-bold text-white mb-4">Experience Authentic Nigerian Flavors</h1>
-              <p class="lead text-white mb-4">Taste the richness of traditional Nigerian cuisine, prepared with love and passion</p>
-              <a href="#menu" class="btn btn-primary btn-lg px-5 py-3">Explore Our Menu</a>
-            </div>
-          </div>
-        </div>
+<!-- ================= MENU SECTION ================= -->
+<section id="menu" class="py-5">
+  <div class="container">
+
+    <!-- Section heading -->
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="display-4 fw-bold mb-3">Our Special Menu</h2>
+        <p class="lead text-muted">Discover our mouth-watering Nigerian delicacies</p>
       </div>
-    </section>
+    </div>
 
-    <!-- Menu Section -->
-    <section id="menu" class="py-5">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="display-4 fw-bold mb-3">Our Special Menu</h2>
-            <p class="lead text-muted">Discover our mouth-watering Nigerian delicacies</p>
-          </div>
-        </div>
+    <!-- Menu items grid -->
+    <div class="row g-4">
 
-        <div class="row g-4">
-          <!-- Menu Item 1 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="card menu-card h-100 shadow-sm">
-              <img src="images/jollof rice.jpg" class="card-img-top" alt="Jollof Rice">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">Jollof Rice</h5>
-                  <span class="badge bg-primary fs-6">₦2,500</span>
-                </div>
-                <p class="card-text text-muted">Our signature party jollof rice cooked to perfection with a blend of traditional spices, served with tender grilled chicken and fried plantains.</p>
-              </div>
+      <!-- ===== Menu Item 1 ===== -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card menu-card h-100 shadow-sm">
+          <img src="images/jollof rice.jpg" class="card-img-top" alt="Jollof Rice">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0">Jollof Rice</h5>
+              <span class="badge bg-primary fs-6">₦2,500</span>
             </div>
-          </div>
-
-          <!-- Menu Item 2 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="card menu-card h-100 shadow-sm">
-              <img src="images/egusi-soup.jpg" class="card-img-top" alt="Egusi Soup">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">Egusi Soup & Akpu</h5>
-                  <span class="badge bg-primary fs-6">₦3,000</span>
-                </div>
-                <p class="card-text text-muted">Rich and hearty melon seed soup with assorted meat, fish, and vegetables, served with smooth akpu for an authentic experience.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Menu Item 3 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="card menu-card h-100 shadow-sm">
-              <img src="images/suya.jpg" class="card-img-top" alt="Suya">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">Suya Platter</h5>
-                  <span class="badge bg-primary fs-6">₦2,000</span>
-                </div>
-                <p class="card-text text-muted">Spicy grilled beef skewers marinated in our special suya spice mix, served with fresh onions, tomatoes, and cabbage.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Menu Item 4 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="card menu-card h-100 shadow-sm">
-              <img src="images/catfish.jpg" class="card-img-top" alt="Pepper Soup">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">Catfish Pepper Soup</h5>
-                  <span class="badge bg-primary fs-6">₦3,500</span>
-                </div>
-                <p class="card-text text-muted">Aromatic and spicy catfish soup infused with traditional herbs and spices, perfect for warming your soul.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Menu Item 5 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="card menu-card h-100 shadow-sm">
-              <img src="images/moi-moi.jpg" class="card-img-top" alt="Moi Moi">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">Moi Moi</h5>
-                  <span class="badge bg-primary fs-6">₦1,500</span>
-                </div>
-                <p class="card-text text-muted">Steamed bean pudding delicately seasoned with peppers and spices, served with a choice of pap or custard.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Menu Item 6 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="card menu-card h-100 shadow-sm">
-              <img src="images/fried rice.jpg" class="card-img-top" alt="Fried Rice">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">Nigerian Fried Rice</h5>
-                  <span class="badge bg-primary fs-6">₦2,500</span>
-                </div>
-                <p class="card-text text-muted">Colorful party rice with mixed vegetables, liver, and prawns, seasoned with Nigerian spices and herbs.</p>
-              </div>
-            </div>
+            <p class="card-text text-muted">
+              Signature party jollof rice served with grilled chicken and fried plantains.
+            </p>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- About Us Section -->
-    <section id="about" class="py-5 bg-light">
-      <div class="container">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-6">
-            <img src="images/chef.jpg" class="img-fluid rounded shadow" alt="About Us">
-          </div>
-          <div class="col-lg-6">
-            <h2 class="display-4 fw-bold mb-4">About Zirim's Delights</h2>
-            <p class="lead mb-4">Bringing the authentic taste of Nigeria to your table since 2025.</p>
-            <p class="mb-4">At Zirim's Delights, we pride ourselves on serving the most authentic Nigerian cuisine prepared using traditional recipes passed down through generations. Our chefs are passionate about preserving the rich culinary heritage of Nigeria while ensuring every dish meets the highest standards of quality and taste.</p>
-            <p class="mb-4">From the bustling streets of Owerri to the cultural heartland of Nigeria, we bring you flavors that tell stories of our vibrant culture and warm hospitality. Every ingredient is carefully selected, and every dish is prepared with love and dedication.</p>
-            <div class="row mt-4">
-              <div class="col-md-6 mb-3">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-check-circle-fill text-primary fs-4 me-3"></i>
-                  <div>
-                    <h5 class="mb-0">Fresh Ingredients</h5>
-                    <p class="text-muted mb-0">Daily sourced produce</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-check-circle-fill text-primary fs-4 me-3"></i>
-                  <div>
-                    <h5 class="mb-0">Expert Chefs</h5>
-                    <p class="text-muted mb-0">Traditional recipes</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-check-circle-fill text-primary fs-4 me-3"></i>
-                  <div>
-                    <h5 class="mb-0">Warm Atmosphere</h5>
-                    <p class="text-muted mb-0">Family-friendly dining</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-check-circle-fill text-primary fs-4 me-3"></i>
-                  <div>
-                    <h5 class="mb-0">Fast Service</h5>
-                    <p class="text-muted mb-0">Quick delivery options</p>
-                  </div>
-                </div>
-              </div>
+      <!-- ===== Menu Item 2 ===== -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card menu-card h-100 shadow-sm">
+          <img src="images/egusi-soup.jpg" class="card-img-top" alt="Egusi Soup">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0">Egusi Soup & Akpu</h5>
+              <span class="badge bg-primary fs-6">₦3,000</span>
             </div>
+            <p class="card-text text-muted">
+              Rich melon seed soup served with smooth akpu.
+            </p>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="display-4 fw-bold mb-3">Get In Touch</h2>
-            <p class="lead text-muted">We'd love to hear from you. Send us a message!</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="card shadow-lg border-0">
-              <div class="card-body p-5">
-                <form>
-                  <div class="row g-3">
-                    <div class="col-md-6">
-                      <label for="name" class="form-label">Your Name</label>
-                      <input type="text" class="form-control form-control-lg" id="name" placeholder="Joshua Chika" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="email" class="form-label">Email Address</label>
-                      <input type="email" class="form-control form-control-lg" id="email" placeholder="kingchikajosh@gmail.com" required>
-                    </div>
-                    <div class="col-12">
-                      <label for="subject" class="form-label">Subject</label>
-                      <input type="text" class="form-control form-control-lg" id="subject" placeholder="Reservation Inquiry" required>
-                    </div>
-                    <div class="col-12">
-                      <label for="message" class="form-label">Message</label>
-                      <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
-                    </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-primary btn-lg w-100 mt-3">
-                        <i class="bi bi-send me-2"></i>Send Message
-                      </button>
-                    </div>
-                  </div>
-                </form>
-
-                <div class="row mt-5 pt-4 border-top">
-                  <div class="col-md-4 text-center mb-3">
-                    <i class="bi bi-geo-alt-fill text-primary fs-2 mb-2"></i>
-                    <h5>Location</h5>
-                    <p class="text-muted">Plot F16, Housing Area B, New Owerri, Owerri, Imo State, Nigeria.</p>
-                  </div>
-                  <div class="col-md-4 text-center mb-3">
-                    <i class="bi bi-telephone-fill text-primary fs-2 mb-2"></i>
-                    <h5>Phone</h5>
-                    <p class="text-muted">+234 816 629 7349</p>
-                  </div>
-                  <div class="col-md-4 text-center mb-3">
-                    <i class="bi bi-clock-fill text-primary fs-2 mb-2"></i>
-                    <h5>Hours</h5>
-                    <p class="text-muted">Mon-Sun: 10AM - 10PM</p>
-                  </div>
-                </div>
-              </div>
+      <!-- ===== Menu Item 3 ===== -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card menu-card h-100 shadow-sm">
+          <img src="images/suya.jpg" class="card-img-top" alt="Suya">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0">Suya Platter</h5>
+              <span class="badge bg-primary fs-6">₦2,000</span>
             </div>
+            <p class="card-text text-muted">
+              Spicy grilled beef skewers with fresh vegetables.
+            </p>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 mb-4 mb-lg-0">
-            <h4 class="mb-3"><i class="bi bi-shop"></i> Zirim's Delights</h4>
-            <p class="text-white-50">Bringing authentic Nigerian flavors to your table with love and passion since 2025</p>
-          </div>
-          <div class="col-lg-4 mb-4 mb-lg-0">
-            <h5 class="mb-3">Quick Links</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none">Home</a></li>
-              <li class="mb-2"><a href="#menu" class="text-white-50 text-decoration-none">Menu</a></li>
-              <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">About Us</a></li>
-              <li class="mb-2"><a href="#contact" class="text-white-50 text-decoration-none">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <h5 class="mb-3">Follow Us</h5>
-            <div class="social-icons">
-              <a href="#" class="text-white me-3 fs-4"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="text-white me-3 fs-4"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="text-white me-3 fs-4"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="text-white me-3 fs-4"><i class="bi bi-youtube"></i></a>
+      <!-- ===== Menu Item 4 ===== -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card menu-card h-100 shadow-sm">
+          <img src="images/catfish.jpg" class="card-img-top" alt="Pepper Soup">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0">Catfish Pepper Soup</h5>
+              <span class="badge bg-primary fs-6">₦3,500</span>
             </div>
-          </div>
-        </div>
-        <hr class="my-4 bg-white-50">
-        <div class="row">
-          <div class="col-12 text-center">
-            <p class="mb-0 text-white-50">&copy; 2026 Zirim's Delights. All rights reserved. Made with <i class="bi bi-heart-fill text-danger"></i> in Nigeria</p>
+            <p class="card-text text-muted">
+              Aromatic catfish soup with traditional spices.
+            </p>
           </div>
         </div>
       </div>
-    </footer>
+
+      <!-- ===== Menu Item 5 ===== -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card menu-card h-100 shadow-sm">
+          <img src="images/moi-moi.jpg" class="card-img-top" alt="Moi Moi">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0">Moi Moi</h5>
+              <span class="badge bg-primary fs-6">₦1,500</span>
+            </div>
+            <p class="card-text text-muted">
+              Steamed bean pudding served with pap or custard.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== Menu Item 6 ===== -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card menu-card h-100 shadow-sm">
+          <img src="images/fried rice.jpg" class="card-img-top" alt="Fried Rice">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <h5 class="card-title mb-0">Nigerian Fried Rice</h5>
+              <span class="badge bg-primary fs-6">₦2,500</span>
+            </div>
+            <p class="card-text text-muted">
+              Colorful party fried rice with vegetables and protein.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT US SECTION ================= -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- About image -->
+      <div class="col-lg-6">
+        <img src="images/chef.jpg" class="img-fluid rounded shadow" alt="About Us">
+      </div>
+
+      <!-- About content -->
+      <div class="col-lg-6">
+        <h2 class="display-4 fw-bold mb-4">About Zirim's Delights</h2>
+        <p class="lead mb-4">
+          Bringing the authentic taste of Nigeria to your table since 2025.
+        </p>
+        <p>
+          We serve traditional Nigerian dishes prepared with love and heritage.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="py-5">
+  <div class="container">
+
+    <!-- Contact heading -->
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="display-4 fw-bold mb-3">Get In Touch</h2>
+        <p class="lead text-muted">We'd love to hear from you</p>
+      </div>
+    </div>
+
+    <!-- Contact form -->
+    <form>
+      <!-- Form fields here -->
+    </form>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+
+    <!-- Footer content -->
+    <p class="text-center text-white-50 mb-0">
+      &copy; 2026 Zirim's Delights. All rights reserved.
+    </p>
+
+  </div>
+</footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
